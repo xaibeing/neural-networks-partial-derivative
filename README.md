@@ -1,8 +1,16 @@
 # neural-networks-partial-derivative
-Simple neural networks partial derivative
+
+In coursera 《Machine Learning》neural network course, the cost function is set like this for classification problem:
+![cost function](cost-function.png)
+
+But cost function in some books are set as square error when take the partial derivative calculation. So that make the δ difference from the log error.
+So try to calculate the partial derivative for the log error cost function.
+
+For simplicity, let J take only one training sample, and ignore the regularization item.
+Here only calculate the partial derivative respect to the Θ of L-1 layer.(connect L-1 layer to L layer).
 
 
-![](NN-partial-derivative-of-log-error.png)
+![NN partial derivative of log error](NN-partial-derivative-of-log-error.png)
 
 J: cost function
 Θ: parameters of neural networks
