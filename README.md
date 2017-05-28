@@ -1,4 +1,4 @@
-# neural-networks-partial-derivative
+# neural networks partial derivative using log error
 
 In coursera 《Machine Learning》neural network course, the cost function is set like this for classification problem:
 ![cost function](cost-function.png)
