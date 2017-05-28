@@ -1,7 +1,7 @@
 # neural-networks-partial-derivative
 
 In coursera 《Machine Learning》neural network course, the cost function is set like this for classification problem:
-![cost function](cost-function.png)
+![cost function](cost function.png)
 
 But cost function in some books are set as square error when take the partial derivative calculation. So that make the δ difference from the log error.
 So try to calculate the partial derivative for the log error cost function.
@@ -23,3 +23,4 @@ k: the kth unit of output layer
 j: the jth unit of L-1 layer
 
 activation function: a = g(z), g is sigmoid function
+
