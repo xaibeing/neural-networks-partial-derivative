@@ -2,7 +2,7 @@
 Simple neural networks partial derivative
 
 
-![alt text](neural-networks-partial-derivative/img.png)
+![](neural-networks-partial-derivative/NN-partial-derivative-of-log-error.png)
 
 J: cost function
 Θ: parameters of neural networks
